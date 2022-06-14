@@ -1,5 +1,7 @@
 library(NbClust)
-raw_data <- read.csv("F:/Recoverit 2022-06-07 at 09.31.45/Noemie/OpenAccess repository/code/data/processed_data/files for clustering analyses/profile_vergence_aversion_for_clustering.csv")
+current_dir <- getwd()
+path_file <- paste(current_dir,"/data/processed_data/files for clustering analyses/profile_vergence_aversion_for_clustering.csv")
+raw_data <- read.csv(path_file)
 df <- raw_data[, -1] #delete column 1
 df <- df[, -1] #delete column 1
 df <- df[,-8]
