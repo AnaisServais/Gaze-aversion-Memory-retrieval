@@ -1,7 +1,7 @@
 # Gaze aversion during autobiographical memory retrieval
 
 
-This repository contains code to reproduce analyses from the paper *Why do you look away while trying to remember your last birthday party? Gaze aversion is a marker of the attentional switch to autobiographical memory*.
+This repository contains code to reproduce analyses from the paper *Why do you look away while trying to remember your last birthday party? Gaze aversion as a marker of the attentional switch to autobiographical memory*.
 
 ## Data
 The raw data and preprocessed data for 32 participants (behavioural and eye-tracking data) are available at [OSF](https://osf.io/pbvmq/).
