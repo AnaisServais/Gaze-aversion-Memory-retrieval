@@ -1,5 +1,8 @@
 library(NbClust)
-raw_data <- read.csv("F:/Noemie/OpenAccess repository/processed_data/files for clustering analyses/orientation_gaze_aversion_table_for_clustering.csv")
+current_dir <- getwd()
+path_file <- paste(current_dir,"/data/processed_data/files for clustering analyses/orientation_gaze_aversion_table_for_clustering.csv")
+raw_data <- read.csv(path_file)
+
 df <- raw_data[, -1] #delete column 1 with codes of subjects
 df <- df[, -9] #delete column 9 if you want to reproduce the clustering analysis
 # otherwise, column 9 already contain the result of this analysis in the .csv file
