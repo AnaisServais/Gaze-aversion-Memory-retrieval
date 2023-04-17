@@ -23,7 +23,7 @@ conda create --name gaze_astom python==3.8 #alternatively you can also use venvs
 conda activate gaze_astom
 git clone https://github.com/AnaisServais/Gaze-aversion-Memory-retrieval.git
 
-cd dummy-gaze-aversion
+cd Gaze-aversion-Memory-retrieval
 cd code
 pip install -r requirements.txt 
 ```
